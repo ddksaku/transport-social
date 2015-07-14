@@ -1,0 +1,40 @@
+.files {
+	padding-left:0;
+}
+
+.thumb {
+	height: 200px;
+	text-align: center;
+}
+
+[class*="col-md"] {
+	margin-bottom:2%;
+}
+
+.datepicker {
+	z-index: 9999 !important;
+	top: 0;
+	left: 0;
+}
+
+#error_message_box {
+	margin-bottom:7px;
+	margin-left:20px;
+	color:red;
+}
+
+.required {
+	color:red;
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 20;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+
+.ui-autocomplete {
+    z-index: 1051 !important;
+}
